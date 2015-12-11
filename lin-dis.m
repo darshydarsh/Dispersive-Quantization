@@ -1,10 +1,10 @@
-%MATLAB program to plot the linearly dispersive wave equation
+%*MATLAB program to plot the linearly dispersive wave equation
 % This function plots the solution to the linearly
-dispersive wave equation. First, save the file in a
-suitable folder and change the matlab environment to that
-particular folder. One can call the function by giving a
-suitable value for the time and position, note here that
-the position is an array of numbers.
+%dispersive wave equation. First, save the file in a
+%suitable folder and change the matlab environment to that
+%particular folder. One can call the function by giving a
+%suitable value for the time and position, note here that
+%the position is an array of numbers.
 
 function [result] = qd(t,x) %Name of the function.
 dmn = size(x);%Size of the position array.
